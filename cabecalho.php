@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,9 +14,10 @@
             <a href="index.php">Início</a>
             <a href="produtos/listar.php">Produtos</a>
             <a href="login.php">Login</a>
+            <a href="logout.php">LogOut</a>
         </nav>
     </header>
 
-    
+
 </body>
 </html>
