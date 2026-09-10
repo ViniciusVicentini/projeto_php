@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 03-Set-2026 às 16:50
+-- Tempo de geração: 10-Set-2026 às 16:49
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.1.2
 
@@ -43,7 +43,7 @@ CREATE TABLE `produtos` (
 
 INSERT INTO `produtos` (`id`, `nome`, `descricao`, `preco`, `quantidade`) VALUES
 (1, 'Fone', 'de cor preta e dourada', '28.00', 5),
-(2, 'Microfone', 'prata', '40.00', 7),
+(2, 'Microfone', 'de cor preta e prata', '40.00', 7),
 (3, 'Monitor Profissional LG 32', '4K, 60Hz, 4ms, VA, FreeSync, HDR10, Som Integrado - 32UR500-B', '1649.99', 10),
 (4, 'Mouse Gamer Sem Fio Razer Viper V3 Pro', 'Sensor Focus Pro, 35000 DPI, Bateria 95h, Polling Rate 8000Hz, Preto - RZ01-05120100', '1078.99', 9),
 (5, 'Teclado Gamer Logitech G PRO X TKL RAPID', ' Switches Magnético-analógicos, Modo Rapid Trigger, Layout US, Branco - 920-013132', '1149.99', 8);
