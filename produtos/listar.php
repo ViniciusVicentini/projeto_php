@@ -7,7 +7,13 @@
 <?php require __DIR__ . '/../cabecalho.php'; ?>
 <main>
     <h2>Produtos cadastrados</h2>
-        <a class="button_pc" href="cadastrar.php">Cadastrar novo produto</a>
+
+    <?php if (isset($_SESSION['mensagem'])) { ?>
+        <p><?php echo $_SESSION['mensagem']; ?></p>
+        <?php unset($_SESSION['mensagem']); ?>
+    <?php } ?>
+
+    <a class="button_pc" href="cadastrar.php">Cadastrar novo produto</a>
  <table>
     <tr>
         <th>Produto</th>
